@@ -1,5 +1,5 @@
 # News App 🗞
-News App is a simple news app 🗞️ which uses [NewsAPI](https://newsapi.org/) to fetch top news headlines from the API. The main aim of this app is to be a leading example of how to build Modern Android applications for all Android Developers
+News App is a simple news app 🗞️ which uses [NewsAPI](https://newsapi.org/) to fetch top news headlines from the API.
 
 The codebase focuses 👓 on following key things:
 - Code structuring, style and comments
@@ -7,8 +7,6 @@ The codebase focuses 👓 on following key things:
 - Offline first ✈️
 - Kotlin + Coroutines
 - And tests 🛠
-
-The idea is to keep the app super simple while demonstrating new libraries and tools which makes it easier to build high quality Android applications.
 
 # Development Setup 🖥
 
@@ -42,11 +40,6 @@ News App uses libraries and tools used to build Modern Android application, main
 
 The app uses MVVM [Model-View-ViewModel] architecture to have a unidirectional flow of data, separation of concern, testability, and a lot more.
 
-Read more: 
-- [Building Modern Android Apps with Architecture Guidelines](https://medium.com/@aky/building-modern-apps-using-the-android-architecture-guidelines-3238fff96f14)
-- [Guide to app architecture](https://developer.android.com/jetpack/docs/guide)
-
-![Architecture](https://developer.android.com/topic/libraries/architecture/images/final-architecture.png)
 
 ## Testing
 The architecture components are highly testable. Following table shows how to test various parts of the app (cheatsheet for testing architecture component)
