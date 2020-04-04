@@ -44,7 +44,7 @@ class NewsActivity : BaseActivity() {
             when (state) {
                 is ViewState.Success -> adapter.submitList(state.data)
                 is ViewState.Loading -> newsList.showLoading()
-                is ViewState.Error -> toast("Something went wrong ¯\\_(ツ)_/¯ => ${state.message}")
+                is ViewState.Error -> toast("Something went wrong => ${state.message}")
             }
         }
 

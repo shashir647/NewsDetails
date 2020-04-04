@@ -13,7 +13,7 @@ interface NewsService {
     /**
      * Retrieves all the latest news article from Google news using News API.
      */
-    @GET("everything?q=covid19india&apiKey=2e7a1197f4e7484683cc09fa2f1c4f04")
+    @GET("everything?q=coronaVirus&sortBy=popularity&apiKey=2e7a1197f4e7484683cc09fa2f1c4f04")
     suspend fun getNewsFromGoogle(): Response<NewsSourceResponse>
 
 }
