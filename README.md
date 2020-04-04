@@ -16,14 +16,6 @@ You will require latest version of Android Studio 3.0 (or newer) to be able to b
 You'll need to provide API key to fetch the news from the News Service (API). Currently the news is fetched from [NewsAPI](https://newsapi.org/)
 
 - Generate an API key (It's only 2 steps!) from [NewsAPI](https://newsapi.org/)
-- Create new file named -> `credentials.properties` in our project root folder
-- Add the API key as shown below [Make sure to keep the double quotes]:
-```
-    NEWS_API_KEY = "<INSERT_YOUR_API_KEY>"
-```
-- Build the app 
-
-
 ## Libraries and tools 🛠
 
 News App uses libraries and tools used to build Modern Android application, mainly part of Android Jetpack 🚀
